@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        let age = parseInt(window.prompt("Please Enter Your Age"));
+        while(age==null || age<0 || !Number.isInteger(age) || age>100){
+            age = parseInt(window.prompt("Please Provide a Valid Age")); 
+        }
+        if(age>=10 && age<=20){
+            document.write("Your Age Lies Between 10 and 20 ");
+        }
+        else{
+            document.write("Your Age don't Lies Between 10 and 20 ");
+        }
+    </script>
+</body>
+</html>
