@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        const obj ={
+            name:"Arman Ali",
+            age:24,
+            phoneNumber:9708244938
+        };
+        try{
+            obj.friend="Naincy";
+            obj['dost']="Pranay";
+            document.write("Friend: "+obj.friend+"<br>");
+            document.write("Dost: "+obj.dost+"<br>");
+            document.write("Yes Possible To Assign a Const Object Property to Another Value <br>")
+        }catch{
+            document.write("Not Possible To Assign a Const Object Property to Another Value <br>")
+        }
+    </script>
+</body>
+</html>
