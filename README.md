@@ -10,7 +10,6 @@ This repository contains solutions to the **JavaScript Practice Set** provided b
 - [Key Concepts Covered](#key-concepts-covered)
 - [Resources](#resources)
 - [Contributing](#contributing)
-- [License](#license)
 
 ## Introduction
 This project consists of a series of JavaScript exercises aimed at enhancing problem-solving skills and reinforcing important concepts such as functions, arrays, loops, DOM manipulation, and more. Whether you're a beginner or looking to refresh your knowledge, these problems offer hands-on practice to build solid JavaScript fundamentals.
