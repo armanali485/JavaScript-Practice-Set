@@ -5,7 +5,7 @@
 In JavaScript, you can prompt the user for input and push the numbers into an array.
 
 ### Code:
-```javascript
+```javascript 
 let numbersArray = [];
 let userInput = prompt("Enter a number to add to the array (enter 0 to stop):");
 
