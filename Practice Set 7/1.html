@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        nav{
+            display: flex;
+            justify-content: space-between;
+            padding: 10px 0;
+            background-color: bisque;
+            box-shadow: 0px 5px 30px 1px black;
+        }
+        nav ul{
+
+            display: flex;
+        }
+        nav li{
+            list-style: none;
+            padding-inline: 10px;
+        }
+        nav a{
+            text-decoration: none;
+            color: black;
+        }
+
+    </style>
+</head>
+<body>
+    <nav>
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Menu</a></li>
+            <li><a href="#">About</a></li>
+        </ul>
+        <ul>
+            <li><a href="#">Login</a></li>
+            <li><a href="#">SignUp</a></li>
+        </ul>
+    </nav>
+    <script>
+        let fristLiElement=document.getElementsByTagName("nav");
+        let x=fristLiElement[0].firstElementChild.firstElementChild.firstElementChild.style.color="red";
+    </script>
+</body>
+</html>

@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }div{
+            height: 100vh;
+            display: flex;
+            justify-content: space-evenly;
+            align-items: center;
+        }
+
+        .child1,.child2,.child3{
+            margin: 5px;
+            width: 25%;
+            height: 200px;
+            border: 2px solid black;
+        }
+    </style>
+</head>
+<body>
+    <div id="parent">
+        <div class="child1"><p>Frist</p></div>
+        <div class="child2"><p>Secound</p></div>
+        <div class="child3"><p>Third</p></div>
+    </div>
+    <script>
+        let a=document.getElementById("parent");
+        a.firstElementChild.style.background="green"; 
+        a.lastElementChild.style.background="green"; 
+    </script>
+</body>
+</html>
