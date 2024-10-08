@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+         var prom=true;
+        while(prom){
+            let age = parseInt(window.prompt("Enter Your Age"));
+            if(age<0){
+                console.error("Enter a Vaild age")
+            }
+            else if(age>=18 && age<=100){
+                alert("You can Drive");
+            }
+            else{
+                alert("You cannot Drive");
+            }
+            prom=confirm("You want to see Promt Again");
+        }
+    </script>
+</body>
+</html>

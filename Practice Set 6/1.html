@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+       let age = parseInt(window.prompt("Please Enter Your Age"));
+        while(age==null || age<0 || !Number.isInteger(age) || age>100){
+            age = parseInt(window.prompt("Please Provide a Valid Age")); 
+        }
+        if(age>=18 && age<=100){
+            alert("You can Drive");
+        }
+        else{
+            alert("You cannot Drive");
+        } 
+    </script>
+</body>
+</html>
