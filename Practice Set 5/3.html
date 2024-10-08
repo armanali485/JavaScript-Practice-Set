@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        let arr =[10,11,35,60,67,89,76,90,56,39,69,20,110,300];
+        document.write(`Given Array ${arr} <br>`);
+        let filterArray = arr.filter((value)=>{
+            return value%10==0});
+        document.write(`Filterded array after  filter to given array.(Element which divisible by 10 in given array) : ${filterArray}`);
+    </script>
+</body>
+</html>

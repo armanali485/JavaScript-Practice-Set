@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        let arr=[1,2,3,4,5,6];
+        document.write("Given Array "+arr+"<br>");
+        let num = Number.parseInt(prompt("Enter a Number"));
+        let n=arr.length;
+        arr[n]=num;
+        document.write("Add to last of Array "+arr+"<br>");
+        arr.pop();
+        document.write("Remove last Element of Array "+arr+"<br>");
+        arr.push(num);
+        document.write("Add to last of Array "+arr+"<br>");
+        arr.unshift(num);
+        document.write("Add to frist Element of Array "+arr+"<br>");
+        arr.shift();
+        document.write("Remove frist Element of Array "+arr+"<br>");
+    </script>
+</body>
+</html>
